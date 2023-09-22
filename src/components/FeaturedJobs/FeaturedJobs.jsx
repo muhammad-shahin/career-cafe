@@ -11,7 +11,6 @@ const FeaturedJobs = () => {
       .then((res) => res.json())
       .then((data) => SetJobs(data));
   }, []);
-  console.log(jobs);
   return (
     <section className="my-10">
       <SectionHeader
@@ -26,7 +25,7 @@ const FeaturedJobs = () => {
       <button
         className={`${
           dataLength === 4 ? "block" : "hidden"
-        } px-5 py-2 rounded-md border-none text-white text-[20px] font-bold bg-gradient-to-r from-[#7E90FE] to-[#9873ff] hover:bg-gradient-to-r hover:from-[#7E90FE] hover:to-[#7E90FE] mx-auto`}
+        } px-5 py-3 rounded-md border-none text-white text-[20px] font-bold bg-gradient-to-r from-[#7E90FE] to-[#9873ff] hover:bg-gradient-to-r hover:from-[#7E90FE] hover:to-[#7E90FE] mx-auto`}
         onClick={() => {
           setDataLength(8);
         }}

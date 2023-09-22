@@ -1,0 +1,18 @@
+.bg-img {
+  background-image: url(../../../public/images/bg1.png),
+    url(../../../public/images/bg2.png);
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+}
+@media (max-width: 767px){
+    .bg-img {
+        background-size: 150px;
+      }
+}
+.bg-color {
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+}

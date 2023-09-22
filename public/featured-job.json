@@ -4,8 +4,8 @@
     "company_name": "Airbnb",
     "job_title": "Software Engineer",
     "salary": "100K-200K",
-    "job_description": "Develop and maintain software solutions.",
-    "job_responsibility": "Design and implement software features.",
+    "job_description": "Develop and maintain software solutions for the Airbnb platform. Collaborate with cross-functional teams to design and implement innovative features that enhance user experience. Utilize cutting-edge technologies to ensure high-performance and scalability. Analyze user feedback and data to make continuous improvements. Conduct code reviews and mentor junior engineers. Stay up-to-date with industry trends and best practices. Work in a dynamic and collaborative environment where creativity and innovation are highly valued.",
+    "job_responsibility": "As a Software Engineer at Airbnb, you will be responsible for the following:\n\n1. Developing and maintaining software solutions for our platform.\n2. Collaborating with cross-functional teams to design and implement innovative features.\n3. Ensuring high-performance and scalability of our systems using cutting-edge technologies.\n4. Analyzing user feedback and data to make continuous improvements.\n5. Conducting code reviews and mentoring junior engineers.\n6. Staying up-to-date with industry trends and best practices.\n7. Working in a dynamic and collaborative environment where creativity and innovation are highly valued.",
     "experiences": "5+ years of software development experience.",
     "location": "San Francisco, CA",
     "contact_information": {
@@ -22,8 +22,8 @@
     "company_name": "Career Hub",
     "job_title": "HR Manager",
     "salary": "80K-150K",
-    "job_description": "Manage human resources and recruitment processes.",
-    "job_responsibility": "Ensure a productive and motivated workforce.",
+    "job_description": "As an HR Manager at Career Hub, your role is critical in shaping our organization. You will manage human resources and recruitment processes to ensure a productive and motivated workforce. Your responsibilities include developing HR policies and procedures, overseeing recruitment, conducting performance evaluations, and resolving employee disputes. You will work closely with department heads to align HR strategies with business goals. With a team-oriented approach, you will create a positive and inclusive work environment that fosters professional growth and development.",
+    "job_responsibility": "As an HR Manager at Career Hub, you will be responsible for the following:\n\n1. Managing human resources and recruitment processes.\n2. Developing and implementing HR policies and procedures.\n3. Overseeing the recruitment and selection process.\n4. Conducting performance evaluations and providing feedback.\n5. Resolving employee disputes and conflicts.\n6. Collaborating with department heads to align HR strategies with business goals.\n7. Creating and maintaining a positive and inclusive work environment.\n8. Fostering professional growth and development among employees.",
     "experiences": "4+ years of HR management experience.",
     "location": "New York, NY",
     "contact_information": {
@@ -40,8 +40,8 @@
     "company_name": "Google",
     "job_title": "Software Engineer",
     "salary": "100K-200K",
-    "job_description": "Develop and maintain software solutions.",
-    "job_responsibility": "Design and implement software features.",
+    "job_description": "Join Google's world-class engineering team as a Software Engineer. You will be at the forefront of developing and maintaining cutting-edge software solutions that impact billions of users worldwide. Collaborate with top talent to design and implement innovative features. Work on projects that push the boundaries of technology and transform the digital landscape. Solve complex problems and make a difference in the world through code. Google is where creativity meets technical excellence, and we want you to be part of it.",
+    "job_responsibility": "As a Software Engineer at Google, you will have the following responsibilities:\n\n1. Developing and maintaining cutting-edge software solutions.\n2. Collaborating with top talent to design and implement innovative features.\n3. Working on projects that push the boundaries of technology.\n4. Solving complex problems and making a difference through code.",
     "experiences": "5+ years of software development experience.",
     "location": "Mountain View, CA",
     "contact_information": {
@@ -58,8 +58,8 @@
     "company_name": "Netflix",
     "job_title": "Data Scientist",
     "salary": "120K-220K",
-    "job_description": "Analyze user data to improve content recommendations.",
-    "job_responsibility": "Build and deploy machine learning models.",
+    "job_description": "Netflix is looking for a talented Data Scientist to join our team. In this role, you will play a crucial part in improving content recommendations for millions of viewers worldwide. Utilize your expertise in data analysis and machine learning to develop and deploy cutting-edge models. Work with a diverse group of data professionals and contribute to the success of the world's leading streaming platform.",
+    "job_responsibility": "As a Data Scientist at Netflix, you will be responsible for the following:\n\n1. Improving content recommendations for millions of viewers worldwide.\n2. Utilizing data analysis and machine learning to develop cutting-edge models.\n3. Collaborating with a diverse group of data professionals.",
     "experiences": "3+ years of data science experience.",
     "location": "Los Gatos, CA",
     "contact_information": {
@@ -76,8 +76,8 @@
     "company_name": "Tesla",
     "job_title": "Mechanical Engineer",
     "salary": "90K-180K",
-    "job_description": "Design and test mechanical components.",
-    "job_responsibility": "Collaborate with cross-functional teams on projects.",
+    "job_description": "Tesla is at the forefront of innovation in the automotive industry, and we're looking for talented Mechanical Engineers to join our team. As a Mechanical Engineer, you will be responsible for designing and testing cutting-edge mechanical components for electric vehicles. Collaborate with cross-functional teams to bring innovative ideas to life. Your work will contribute to the development of sustainable transportation solutions that have a global impact.",
+    "job_responsibility": "As a Mechanical Engineer at Tesla, your responsibilities will include:\n\n1. Designing and testing cutting-edge mechanical components.\n2. Collaborating with cross-functional teams on innovative projects.\n3. Contributing to the development of sustainable transportation solutions.",
     "experiences": "4+ years of mechanical engineering experience.",
     "location": "Fremont, CA",
     "contact_information": {
@@ -94,8 +94,8 @@
     "company_name": "Tesla",
     "job_title": "Electrical Engineer",
     "salary": "95K-185K",
-    "job_description": "Design and develop electrical systems for vehicles.",
-    "job_responsibility": "Collaborate with the engineering team on electrical projects.",
+    "job_description": "Tesla is seeking Electrical Engineers to join our team in Palo Alto, CA. In this role, you will design and develop cutting-edge electrical systems for our vehicles. Collaborate with a team of highly skilled engineers on exciting projects that drive the future of sustainable transportation. Your work will have a direct impact on our mission to accelerate the world's transition to sustainable energy.",
+    "job_responsibility": "As an Electrical Engineer at Tesla, your responsibilities will include:\n\n1. Designing and developing cutting-edge electrical systems.\n2. Collaborating with a team of highly skilled engineers on exciting projects.\n3. Contributing to our mission to accelerate the world's transition to sustainable energy.",
     "experiences": "3+ years of electrical engineering experience.",
     "location": "Palo Alto, CA",
     "contact_information": {
@@ -112,8 +112,8 @@
     "company_name": "Google",
     "job_title": "Data Analyst",
     "salary": "80K-150K",
-    "job_description": "Analyze data to provide insights for business decisions.",
-    "job_responsibility": "Create and maintain data reports and dashboards.",
+    "job_description": "Google is looking for a Data Analyst to join our team in New York, NY. In this role, you will analyze data to provide valuable insights for business decisions. You will create and maintain data reports and dashboards to support various teams within Google. Your work will contribute to data-driven strategies and enhance our ability to make informed choices.",
+    "job_responsibility": "As a Data Analyst at Google, your responsibilities will include:\n\n1. Analyzing data to provide valuable insights for business decisions.\n2. Creating and maintaining data reports and dashboards.\n3. Supporting various teams within Google with data-driven strategies.",
     "experiences": "3+ years of data analysis experience.",
     "location": "New York, NY",
     "contact_information": {
@@ -130,8 +130,8 @@
     "company_name": "Meta",
     "job_title": "Social Media Manager",
     "salary": "85K-160K",
-    "job_description": "Manage social media accounts and content strategy.",
-    "job_responsibility": "Create and schedule posts, analyze engagement metrics.",
+    "job_description": "As a Social Media Manager at Meta, you will be responsible for managing social media accounts and developing content strategies that engage and resonate with our audience. You will create and schedule posts, analyze engagement metrics, and collaborate with cross-functional teams to align social media efforts with overall marketing goals. Your role is crucial in building and maintaining our brand's online presence.",
+    "job_responsibility": "As a Social Media Manager at Meta, your responsibilities will include:\n\n1. Managing social media accounts and developing content strategies.\n2. Creating and scheduling posts, analyzing engagement metrics.\n3. Collaborating with cross-functional teams to align social media efforts with marketing goals.",
     "experiences": "4+ years of social media management experience.",
     "location": "Los Angeles, CA",
     "contact_information": {
@@ -141,6 +141,6 @@
     },
     "educational_requirements": "Bachelor's degree in Marketing or related field.",
     "job_type": "remote",
-    "company_logo": "https://i.ibb.co/VwYvGbN/google.png"
+    "company_logo": "https://i.ibb.co/Y2DyW5f/meta.png"
   }
 ]
