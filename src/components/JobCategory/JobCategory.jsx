@@ -7,14 +7,14 @@ import chipIcon from "../../../public/icons/chip.png";
 
 const JobCategory = () => {
   return (
-    <section className="mt-10 lg:mb-32 mb-10 container mx-auto lg:w-full w-[90%]">
+    <section className="mt-10 lg:mb-32 mb-10 ">
       <SectionHeader
         sectionTitle={"Job Category List"}
         sectionDescription={
           "Explore thousands of job opportunities with all the information you need. Its your future"
         }
       ></SectionHeader>
-      <div className="flex flex-wrap justify-between items-center my-10">
+      <div className="flex flex-wrap lg:justify-between justify-center items-center my-10 gap-5 lg:gap-0 ">
         <CategoryList
           icon={accountIcon}
           category="Account & Finance"

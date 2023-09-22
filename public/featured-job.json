@@ -1,7 +1,6 @@
 [
   {
     "id": "1",
-    "company_logo": "https://i.ibb.co/xzXQnzQ/airbnb.png",
     "company_name": "Airbnb",
     "job_title": "Software Engineer",
     "salary": "100K-200K",
@@ -14,11 +13,12 @@
       "email": "contact@airbnb.com",
       "address": "123 Airbnb Street, San Francisco, CA"
     },
-    "educational_requirements": "Bachelor's degree in Computer Science or related field."
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/xzXQnzQ/airbnb.png"
   },
   {
     "id": "2",
-    "company_logo": "https://i.ibb.co/fpcSBCR/Career-Hub.png",
     "company_name": "Career Hub",
     "job_title": "HR Manager",
     "salary": "80K-150K",
@@ -31,11 +31,12 @@
       "email": "contact@careerhub.com",
       "address": "456 Career Lane, New York, NY"
     },
-    "educational_requirements": "Bachelor's degree in Human Resources or related field."
+    "educational_requirements": "Bachelor's degree in Human Resources or related field.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/fpcSBCR/Career-Hub.png"
   },
   {
     "id": "3",
-    "company_logo": "https://i.ibb.co/VwYvGbN/google.png",
     "company_name": "Google",
     "job_title": "Software Engineer",
     "salary": "100K-200K",
@@ -48,11 +49,12 @@
       "email": "contact@google.com",
       "address": "789 Google Avenue, Mountain View, CA"
     },
-    "educational_requirements": "Bachelor's degree in Computer Science or related field."
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/VwYvGbN/google.png"
   },
   {
     "id": "4",
-    "company_logo": "https://i.ibb.co/2SW7d9G/netflix.png",
     "company_name": "Netflix",
     "job_title": "Data Scientist",
     "salary": "120K-220K",
@@ -65,11 +67,12 @@
       "email": "contact@netflix.com",
       "address": "101 Netflix Drive, Los Gatos, CA"
     },
-    "educational_requirements": "Master's degree in Data Science or related field."
+    "educational_requirements": "Master's degree in Data Science or related field.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/2SW7d9G/netflix.png"
   },
   {
     "id": "5",
-    "company_logo": "https://i.ibb.co/jRzbCyG/tesla.png",
     "company_name": "Tesla",
     "job_title": "Mechanical Engineer",
     "salary": "90K-180K",
@@ -82,6 +85,62 @@
       "email": "contact@tesla.com",
       "address": "234 Tesla Street, Fremont, CA"
     },
-    "educational_requirements": "Bachelor's degree in Mechanical Engineering."
+    "educational_requirements": "Bachelor's degree in Mechanical Engineering.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/jRzbCyG/tesla.png"
+  },
+  {
+    "id": "6",
+    "company_name": "Tesla",
+    "job_title": "Electrical Engineer",
+    "salary": "95K-185K",
+    "job_description": "Design and develop electrical systems for vehicles.",
+    "job_responsibility": "Collaborate with the engineering team on electrical projects.",
+    "experiences": "3+ years of electrical engineering experience.",
+    "location": "Palo Alto, CA",
+    "contact_information": {
+      "phone": "+1 (678) 901-2345",
+      "email": "contact@tesla.com",
+      "address": "345 Tesla Road, Palo Alto, CA"
+    },
+    "educational_requirements": "Bachelor's degree in Electrical Engineering.",
+    "job_type": "onsite",
+    "company_logo": "https://i.ibb.co/jRzbCyG/tesla.png"
+  },
+  {
+    "id": "7",
+    "company_name": "Google",
+    "job_title": "Data Analyst",
+    "salary": "80K-150K",
+    "job_description": "Analyze data to provide insights for business decisions.",
+    "job_responsibility": "Create and maintain data reports and dashboards.",
+    "experiences": "3+ years of data analysis experience.",
+    "location": "New York, NY",
+    "contact_information": {
+      "phone": "+1 (789) 012-3456",
+      "email": "contact@google.com",
+      "address": "567 Google Street, New York, NY"
+    },
+    "educational_requirements": "Bachelor's degree in Data Analytics or related field.",
+    "job_type": "remote",
+    "company_logo": "https://i.ibb.co/VwYvGbN/google.png"
+  },
+  {
+    "id": "8",
+    "company_name": "Meta",
+    "job_title": "Social Media Manager",
+    "salary": "85K-160K",
+    "job_description": "Manage social media accounts and content strategy.",
+    "job_responsibility": "Create and schedule posts, analyze engagement metrics.",
+    "experiences": "4+ years of social media management experience.",
+    "location": "Los Angeles, CA",
+    "contact_information": {
+      "phone": "+1 (890) 123-4567",
+      "email": "contact@meta.com",
+      "address": "678 Meta Lane, Los Angeles, CA"
+    },
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "job_type": "remote",
+    "company_logo": "https://i.ibb.co/VwYvGbN/google.png"
   }
 ]

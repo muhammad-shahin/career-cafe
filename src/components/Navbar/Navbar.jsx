@@ -5,14 +5,14 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className="flex justify-between container items-center mx-auto py-8 lg:w-full w-[90%]">
+    <header className="flex justify-between container items-center mx-auto lg:py-8 py-4 lg:w-full w-[90%]">
       <div className="site-logo">
         <h1 className="text-[#1A1919] text-[2rem] font-bold">CareerCafe</h1>
       </div>
       <nav
-        className={`flex lg:flex-row flex-col lg:gap-5 gap-8 justify-center items-center absolute top-[10%] bg-[#7E90FE] lg:bg-white w-[50%] h-screen lg:h-auto ${
+        className={`flex lg:flex-row flex-col lg:gap-5 gap-8 justify-start items-center fixed lg:static top-[13%] bg-[#7E90FE] lg:bg-white w-[50%] lg:w-auto h-screen lg:h-auto ${
           isOpen ? "right-0" : "right-[-100%]"
-        } lg:static duration-700 z-50`}
+        } duration-700 z-50 pt-8 lg:pt-0`}
       >
         <NavLink
           className="text-[18px] font-medium hover:text-[#4400fd]"
@@ -47,7 +47,6 @@ const Navbar = () => {
       <div className="lg:hidden">
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
-      
     </header>
   );
 };

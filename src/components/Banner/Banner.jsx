@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section className="bg-[#eaecf7]">
-    <div className="container mx-auto lg:w-full w-[90%] flex justify-between items-center ">
+    <div className="container mx-auto lg:w-full lg:px-0 px-[5%] lg:py-0 py-[5%]  flex justify-between items-center ">
       {/* left side content */}
       <div className="spay">
         <h1 className="lg:text-[5rem] text-[3rem] font-bold max-w-xl">

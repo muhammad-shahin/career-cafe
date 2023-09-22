@@ -6,8 +6,10 @@ const Home = () => {
   return (
     <main>
       <Banner></Banner>
-      <JobCategory></JobCategory>
-      <FeaturedJobs></FeaturedJobs>
+      <div className="container mx-auto lg:w-full w-[90%]">
+        <JobCategory></JobCategory>
+        <FeaturedJobs></FeaturedJobs>
+      </div>
     </main>
   );
 };
