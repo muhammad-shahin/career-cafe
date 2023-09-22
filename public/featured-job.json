@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "company_logo": "https://i.ibb.co/xzXQnzQ/airbnb.png",
+    "company_name": "Airbnb",
+    "job_title": "Software Engineer",
+    "salary": "100K-200K",
+    "job_description": "Develop and maintain software solutions.",
+    "job_responsibility": "Design and implement software features.",
+    "experiences": "5+ years of software development experience.",
+    "location": "San Francisco, CA",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "contact@airbnb.com",
+      "address": "123 Airbnb Street, San Francisco, CA"
+    },
+    "educational_requirements": "Bachelor's degree in Computer Science or related field."
+  },
+  {
+    "id": "2",
+    "company_logo": "https://i.ibb.co/fpcSBCR/Career-Hub.png",
+    "company_name": "Career Hub",
+    "job_title": "HR Manager",
+    "salary": "80K-150K",
+    "job_description": "Manage human resources and recruitment processes.",
+    "job_responsibility": "Ensure a productive and motivated workforce.",
+    "experiences": "4+ years of HR management experience.",
+    "location": "New York, NY",
+    "contact_information": {
+      "phone": "+1 (234) 567-8901",
+      "email": "contact@careerhub.com",
+      "address": "456 Career Lane, New York, NY"
+    },
+    "educational_requirements": "Bachelor's degree in Human Resources or related field."
+  },
+  {
+    "id": "3",
+    "company_logo": "https://i.ibb.co/VwYvGbN/google.png",
+    "company_name": "Google",
+    "job_title": "Software Engineer",
+    "salary": "100K-200K",
+    "job_description": "Develop and maintain software solutions.",
+    "job_responsibility": "Design and implement software features.",
+    "experiences": "5+ years of software development experience.",
+    "location": "Mountain View, CA",
+    "contact_information": {
+      "phone": "+1 (345) 678-9012",
+      "email": "contact@google.com",
+      "address": "789 Google Avenue, Mountain View, CA"
+    },
+    "educational_requirements": "Bachelor's degree in Computer Science or related field."
+  },
+  {
+    "id": "4",
+    "company_logo": "https://i.ibb.co/2SW7d9G/netflix.png",
+    "company_name": "Netflix",
+    "job_title": "Data Scientist",
+    "salary": "120K-220K",
+    "job_description": "Analyze user data to improve content recommendations.",
+    "job_responsibility": "Build and deploy machine learning models.",
+    "experiences": "3+ years of data science experience.",
+    "location": "Los Gatos, CA",
+    "contact_information": {
+      "phone": "+1 (456) 789-0123",
+      "email": "contact@netflix.com",
+      "address": "101 Netflix Drive, Los Gatos, CA"
+    },
+    "educational_requirements": "Master's degree in Data Science or related field."
+  },
+  {
+    "id": "5",
+    "company_logo": "https://i.ibb.co/jRzbCyG/tesla.png",
+    "company_name": "Tesla",
+    "job_title": "Mechanical Engineer",
+    "salary": "90K-180K",
+    "job_description": "Design and test mechanical components.",
+    "job_responsibility": "Collaborate with cross-functional teams on projects.",
+    "experiences": "4+ years of mechanical engineering experience.",
+    "location": "Fremont, CA",
+    "contact_information": {
+      "phone": "+1 (567) 890-1234",
+      "email": "contact@tesla.com",
+      "address": "234 Tesla Street, Fremont, CA"
+    },
+    "educational_requirements": "Bachelor's degree in Mechanical Engineering."
+  }
+]

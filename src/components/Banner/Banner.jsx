@@ -1,6 +1,7 @@
 const Banner = () => {
   return (
-    <section className="flex justify-between items-center lg:px-8">
+    <section className="bg-[#eaecf7]">
+    <div className="container mx-auto lg:w-full w-[90%] flex justify-between items-center ">
       {/* left side content */}
       <div className="spay">
         <h1 className="lg:text-[5rem] text-[3rem] font-bold max-w-xl">
@@ -20,6 +21,7 @@ const Banner = () => {
       <div className="lg:block hidden">
         <img src="../../../public/images/user.png" alt="" />
       </div>
+    </div>
     </section>
   );
 };
