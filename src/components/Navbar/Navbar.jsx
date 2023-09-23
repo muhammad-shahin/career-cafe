@@ -41,7 +41,7 @@ const Navbar = () => {
       </nav>
       <div className="lg:block hidden">
         <button className="px-5 py-2 rounded-md border-none text-white text-[20px] font-bold bg-gradient-to-r from-[#7E90FE] to-[#9873ff]">
-          Start Applying
+          <NavLink to="/featured-jobs">Start Applying</NavLink>
         </button>
       </div>
       <div className="lg:hidden">

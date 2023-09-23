@@ -12,7 +12,6 @@ import { saveJobApplication } from "../../utility/localstorage";
 const JobDetails = () => {
   const jobDetails = useLoaderData();
   const { jobId } = useParams();
-  const jobIdInt = parseInt(jobId);
   const job = jobDetails.find((job) => job.id === jobId);
   const {
     company_logo,

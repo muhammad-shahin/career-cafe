@@ -1,14 +1,16 @@
-import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import "../../components/JobDetails/JobDetails.css";
 import { useLoaderData } from "react-router-dom";
 import { getStoredJobApplication } from "../../utility/localstorage";
 import dropDownIcon from "../../../public/icons/downarrow.svg";
 import ShowAppliedJobs from "./ShowAppliedJobs";
+import NoAppliedJobs from "./NoAppliedJobs";
 const AppliedJobs = () => {
   const jobs = useLoaderData();
   const [appliedJobs, setAppliedJobs] = useState([]);
   const [displayJobs, setDisplayJobs] = useState([]);
+  const [remoteJobs, setRemoteJobs] = useState([]);
+  const [onsiteJobs, setOnsiteJobs] = useState([]);
   useEffect(() => {
     const storedJobsId = getStoredJobApplication();
     if (jobs.length > 0) {
@@ -20,6 +22,7 @@ const AppliedJobs = () => {
   //   Drop down menu
   const [openMenu, setOpenMenu] = useState(false);
   const [filter, setFilter] = useState("");
+  const currentFilter = useRef(null);
   const handleSelectOption = (event) => {
     const text = event.target.textContent;
     setFilter(text);
@@ -27,12 +30,17 @@ const AppliedJobs = () => {
   useEffect(() => {
     if (filter === "All") {
       setDisplayJobs(appliedJobs);
+      currentFilter.current.textContent = "All";
     } else if (filter === "Remote") {
-      const remoteJobs = appliedJobs.filter((job) => job.job_type === "remote");
+      // const remoteJobs = appliedJobs.filter((job) => job.job_type === "remote");
+      setRemoteJobs(appliedJobs.filter((job) => job.job_type === "remote"));
       setDisplayJobs(remoteJobs);
+      currentFilter.current.textContent = "Remote";
     } else if (filter === "Onsite") {
-      const onsiteJobs = appliedJobs.filter((job) => job.job_type === "onsite");
+      // const onsiteJobs = appliedJobs.filter((job) => job.job_type === "onsite");
+      setOnsiteJobs(appliedJobs.filter((job) => job.job_type === "onsite"));
       setDisplayJobs(onsiteJobs);
+      currentFilter.current.textContent = "Onsite";
     }
   }, [filter]);
 
@@ -56,7 +64,12 @@ const AppliedJobs = () => {
                 setOpenMenu(!openMenu);
               }}
             >
-              <p className="text-[24px] font-medium text-white">Filter</p>
+              <p
+                className="text-[24px] font-medium text-white"
+                ref={currentFilter}
+              >
+                Filter
+              </p>
               <img src={dropDownIcon} />
               <ul
                 className={`${
@@ -93,20 +106,13 @@ const AppliedJobs = () => {
         </div>
       </section>
     );
-  } else {
-    return (
-      <div className="w-full h-screen flex flex-col justify-center items-center space-y-4">
-        <h1 className="text-[#9873ff] font-bold text-[52px]">
-          You Didn't Apply for Any Job Yet!
-        </h1>
-        <p className="text-[#9873ff] font-bold text-[32px] max-w-2xl text-center">
-          You can apply for jobs. Go to Home page to see the latest Job listings
-        </p>
-        <button className="px-5 py-3 rounded-md border-none text-white text-[20px] font-bold bg-gradient-to-r from-[#7E90FE] to-[#9873ff]">
-          <NavLink to="/">Start Applying</NavLink>
-        </button>
-      </div>
-    );
+  } else if(!displayJobs.length) {
+    return <NoAppliedJobs></NoAppliedJobs>;
+  }
+  else if (!remoteJobs.length) {
+    return <NoAppliedJobs message={"Remote"}></NoAppliedJobs>;
+  } else if (!onsiteJobs.length) {
+    return <NoAppliedJobs message={"Onsite"}></NoAppliedJobs>;
   }
 };
 

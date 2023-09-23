@@ -9,6 +9,7 @@ import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import JobDetails from "./components/JobDetails/JobDetails";
 import Blog from "./components/Blog/Blog";
 import Error from "./components/Error/Error";
+import FeaturedJobs from "./components/FeaturedJobs/FeaturedJobs";
 
 const router = createBrowserRouter([
   {
@@ -25,9 +26,13 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>,
       },
       {
+        path: "/featured-jobs",
+        element: <FeaturedJobs></FeaturedJobs>,
+      },
+      {
         path: "/applied-jobs",
+        loader: () => fetch("featured-job.json"),
         element: <AppliedJobs></AppliedJobs>,
-        loader: () => fetch("../public/featured-job.json"),
       },
       {
         path: "/blog",
@@ -35,8 +40,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/job-details/:jobId",
+        loader: () => fetch("featured-job.json"),
         element: <JobDetails></JobDetails>,
-        loader: () => fetch("../public/featured-job.json"),
       },
     ],
   },

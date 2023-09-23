@@ -12,7 +12,7 @@ const FeaturedJobs = () => {
       .then((data) => SetJobs(data));
   }, []);
   return (
-    <section className="my-10">
+    <section id="featured-jobs" className="my-10">
       <SectionHeader
         sectionTitle="Featured Jobs"
         sectionDescription="Explore thousands of job opportunities with all the information you need. Its your future"
